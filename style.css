@@ -1389,14 +1389,30 @@ footer {
     content: url("text-image/footer-3.png");
   }
   .textimg5 {
-    content: url("text-image/textimg6.png");
+    width: 300px !important;
   }
-  /* .header-left-button {
-    content: url("text-image/btn-1-2.png");
-  } */
+
+  #tim1 {
+    width: 450px !important;
+  }
+  #tim2 {
+    width: 500px !important;
+  }
+  .header-left-button img {
+    width: 255px !important;
+  }
+  .newsteps-item:nth-child(1) .newsteps-item_text img {
+    width: 80px !important;
+  }
+  .newsteps-item:nth-child(2) .newsteps-item_text img {
+    width: 140px !important;
+  }
+  .newsteps-item:nth-child(3) .newsteps-item_text img {
+    width: 72px !important;
+  }
 }
-@media screen and (max-width: 380px) {
+/* @media screen and (max-width: 380px) {
   .header-left-button {
     content: url("text-image/btn-1-2.png");
   }
-}
+} */
