@@ -469,7 +469,7 @@ body {
 .hero_section {
   margin-top: 48px;
   height: 360px;
-  background: url("images/background-casino.jpg");
+  background: url("images/background.jpg");
   /*background: url("uwin-background-sports.jpg");*/
   background-size: cover;
   background-position: center center;
@@ -1380,18 +1380,26 @@ footer {
   align-items: center;
 }
 @media screen and (max-width: 900px) {
-  .footer-content img {
+  /* .footer-content img {
     content: url("text-image/footer-2.png");
+  } */
+}
+@media screen and (max-width: 680px) {
+  .footer-content img {
+    width: 550px !important;
   }
 }
 @media screen and (max-width: 550px) {
   .footer-content img {
+    width: 400px !important;
     content: url("text-image/footer-3.png");
   }
   .textimg5 {
     width: 300px !important;
   }
-
+  #tim3 {
+    display: none;
+  }
   #tim1 {
     width: 450px !important;
   }
@@ -1411,8 +1419,8 @@ footer {
     width: 72px !important;
   }
 }
-/* @media screen and (max-width: 380px) {
-  .header-left-button {
-    content: url("text-image/btn-1-2.png");
+@media screen and (max-width: 550px) {
+  .footer-content img {
+    width: 330px !important;
   }
-} */
+}
